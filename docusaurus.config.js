@@ -1,158 +1,162 @@
 // @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
-
-import {themes as prismThemes} from 'prism-react-renderer';
-
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+const {themes} = require('prism-react-renderer');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'SwiftLATAM',
+  tagline: 'Aprende SwiftUI en español',
   favicon: 'img/favicon.ico',
-
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
-  future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
-  },
-
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-
+  url: 'https://iostephano.github.io',
+  baseUrl: '/SwiftLATAM/',
+  organizationName: 'iostephano',
+  projectName: 'SwiftLATAM',
+  trailingSlash: false,
   onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'es',
+    locales: ['es'],
   },
 
   presets: [
     [
       'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          sidebarPath: require.resolve('./sidebars.js'),
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: require.resolve('./src/css/custom.css'),
         },
       }),
     ],
   ],
 
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
-      colorMode: {
-        respectPrefersColorScheme: true,
-      },
-      navbar: {
-        title: 'My Site',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+  themeConfig: ({
+    navbar: {
+      title: 'SwiftLATAM',
+      items: [
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'Curso',
         },
-        items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-      },
-      prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
-      },
-    }),
+        {
+          href: 'https://github.com/iostephano/SwiftLATAM',
+          label: 'GitHub',
+          position: 'right',
+        },
+      ],
+    },
+    footer: {
+      style: 'dark',
+      copyright: `SwiftLATAM © ${new Date().getFullYear()}`,
+    },
+    prism: {
+      theme: themes.github,
+      darkTheme: themes.dracula,
+      additionalLanguages: ['swift'],
+    },
+  }),
 };
 
-export default config;
+module.exports = config;
+```
+
+Guarda el archivo (Cmd + S).
+
+---
+
+## PASO 4 — Crear tu primera lección real
+
+En Terminal ejecuta:
+```
+rm -rf /Users/iostephano/SwiftLATAM/docs/*
+```
+
+Esto borra el contenido de ejemplo. Luego crea la estructura:
+```
+mkdir -p /Users/iostephano/SwiftLATAM/docs/fundamentos
+```
+
+Ahora crea el archivo de introducción:
+```
+cat > /Users/iostephano/SwiftLATAM/docs/fundamentos/introduccion.md << 'EOF'
+---
+sidebar_position: 1
+title: Introducción a SwiftUI
+---
+
+# Introducción a SwiftUI
+
+SwiftUI es el framework moderno de Apple para construir interfaces de usuario en iOS, macOS, watchOS y tvOS.
+
+## ¿Qué es SwiftUI?
+
+En lugar de describir **cómo** construir la interfaz paso a paso, describes **qué** debe mostrar, y SwiftUI se encarga del resto.
+
+## Tu primera View
+
+Todo en SwiftUI es una `View`. Un texto, una imagen, toda tu pantalla — todo es una View.
+```swift
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        Text("¡Hola, SwiftLATAM!")
+            .font(.largeTitle)
+            .foregroundStyle(.orange)
+            .padding()
+    }
+}
+```
+
+## Ventajas frente a UIKit
+
+- **Menos código** — lo que en UIKit son 50 líneas, en SwiftUI son 5
+- **Previews en tiempo real** — Xcode muestra el resultado mientras escribes
+- **Multi-plataforma** — el mismo código corre en iPhone, iPad y Mac
+
+:::tip Consejo
+Si empiezas hoy, SwiftUI es el camino correcto. Todo el ecosistema moderno de Apple apunta hacia aquí.
+:::
+EOF
+```
+
+Luego crea el índice del módulo:
+```
+cat > /Users/iostephano/SwiftLATAM/docs/fundamentos/_category_.json << 'EOF'
+{
+  "label": "Fundamentos",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": false
+}
+EOF
+```
+
+---
+
+## PASO 5 — Verificar en local
+```
+cd /Users/iostephano/SwiftLATAM
+npm start
+```
+
+Abre `localhost:3000` y verás SwiftLATAM con tu primera lección real.
+
+---
+
+## PASO 6 — Publicar en GitHub Pages
+
+Cuando estés conforme, ejecuta en Terminal:
+```
+npm run build
+```
+
+Cuando termine:
+```
+GIT_USER=iostephano npm run deploy
