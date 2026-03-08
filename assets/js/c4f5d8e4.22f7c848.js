@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkswift_latam=globalThis.webpackChunkswift_latam||[]).push([[2634],{192(t,a,s){s.r(a),s.d(a,{default:()=>r});var i=s(6347),l=s(4848);function r(){return(0,l.jsx)(i.rd,{to:"/docs/intro"})}}}]);
