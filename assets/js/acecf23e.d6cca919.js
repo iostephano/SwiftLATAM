@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkswift_latam=globalThis.webpackChunkswift_latam||[]).push([[1903],{1912(t){t.exports=JSON.parse('{"blogBasePath":"/SwiftLATAM/blog","blogTitle":"iOS Jobs LATAM","authorsListPath":"/SwiftLATAM/blog/authors"}')}}]);
