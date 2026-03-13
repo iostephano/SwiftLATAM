@@ -62,4 +62,45 @@
         <category label="peru" term="peru"/>
         <category label="ycombinator" term="ycombinator"/>
     </entry>
+    <entry>
+        <title type="html"><![CDATA[Staff Software Engineer iOS — Rappi]]></title>
+        <id>https://iostephano.github.io/SwiftLATAM/blog/staff-ios-engineer-rappi-2026</id>
+        <link href="https://iostephano.github.io/SwiftLATAM/blog/staff-ios-engineer-rappi-2026"/>
+        <updated>2026-03-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🏢 Rappi · Bogotá, Colombia · Presencial · Full-time]]></summary>
+        <content type="html"><![CDATA[<p><strong>🏢 Rappi</strong> · Bogotá, Colombia · Presencial · Full-time</p>
+<p>Rappi es una de las superapps más grandes de Latinoamérica. Buscan un experto en modularización iOS para liderar el desacoplamiento total de su aplicación principal — una arquitectura de miles de módulos.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-el-reto">🎯 El reto<a href="https://iostephano.github.io/SwiftLATAM/blog/staff-ios-engineer-rappi-2026#-el-reto" class="hash-link" aria-label="Enlace directo al 🎯 El reto" title="Enlace directo al 🎯 El reto" translate="no">​</a></h2>
+<p>La infraestructura iOS de Rappi ha crecido hasta miles de módulos. El objetivo principal es liderar el desacoplamiento total de la app para permitir la extracción y lanzamiento de aplicaciones independientes de manera eficiente.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-stack-requerido">🛠️ Stack requerido<a href="https://iostephano.github.io/SwiftLATAM/blog/staff-ios-engineer-rappi-2026#%EF%B8%8F-stack-requerido" class="hash-link" aria-label="Enlace directo al 🛠️ Stack requerido" title="Enlace directo al 🛠️ Stack requerido" translate="no">​</a></h2>
+<ul>
+<li class="">Swift moderno · manejo de memoria · concurrencia</li>
+<li class="">CocoaPods avanzado (Podspecs complejos, sub-specs)</li>
+<li class="">Swift Package Manager (SPM) · Tuist</li>
+<li class="">Clean Architecture · Inyección de dependencias · Coordinators</li>
+<li class="">Arquitecturas modulares complejas</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-responsabilidades">✅ Responsabilidades<a href="https://iostephano.github.io/SwiftLATAM/blog/staff-ios-engineer-rappi-2026#-responsabilidades" class="hash-link" aria-label="Enlace directo al ✅ Responsabilidades" title="Enlace directo al ✅ Responsabilidades" translate="no">​</a></h2>
+<ul>
+<li class="">Diseñar y ejecutar la estrategia de desacoplamiento por unidades de negocio</li>
+<li class="">Gestionar y optimizar sistemas de dependencias complejos</li>
+<li class="">Definir patrones de navegación y comunicación inter-module</li>
+<li class="">Mejorar tiempos de compilación en entorno de gran escala</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-requisitos">✅ Requisitos<a href="https://iostephano.github.io/SwiftLATAM/blog/staff-ios-engineer-rappi-2026#-requisitos" class="hash-link" aria-label="Enlace directo al ✅ Requisitos" title="Enlace directo al ✅ Requisitos" translate="no">​</a></h2>
+<ul>
+<li class="">Experiencia profunda en iOS con arquitecturas modulares</li>
+<li class="">Experto en Swift moderno</li>
+<li class="">Experiencia avanzada con CocoaPods y SPM</li>
+<li class="">Sólidos conocimientos en Clean Architecture</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-aplicar">🔗 Aplicar<a href="https://iostephano.github.io/SwiftLATAM/blog/staff-ios-engineer-rappi-2026#-aplicar" class="hash-link" aria-label="Enlace directo al 🔗 Aplicar" title="Enlace directo al 🔗 Aplicar" translate="no">​</a></h2>
+<p><a href="https://www.linkedin.com/jobs/view/rappi-staff-ios" target="_blank" rel="noopener noreferrer" class="">Ver oferta en LinkedIn</a><br>
+<a href="https://about.rappi.com/es" target="_blank" rel="noopener noreferrer" class="">Más sobre Rappi</a></p>]]></content>
+        <category label="staff" term="staff"/>
+        <category label="presencial" term="presencial"/>
+        <category label="colombia" term="colombia"/>
+        <category label="modularizacion" term="modularizacion"/>
+        <category label="swift" term="swift"/>
+    </entry>
 </feed>
