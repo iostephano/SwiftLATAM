@@ -2,11 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://iostephano.github.io/SwiftLATAM/blog</id>
     <title>SwiftLATAM Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2026-03-12T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://iostephano.github.io/SwiftLATAM/blog"/>
     <subtitle>SwiftLATAM Blog</subtitle>
     <icon>https://iostephano.github.io/SwiftLATAM/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[iOS Developer Senior — Hapi App]]></title>
+        <id>https://iostephano.github.io/SwiftLATAM/blog/ios-developer-hapi-app-2026</id>
+        <link href="https://iostephano.github.io/SwiftLATAM/blog/ios-developer-hapi-app-2026"/>
+        <updated>2026-03-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🏢 Hapi App]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hapi-app">🏢 Hapi App<a href="https://iostephano.github.io/SwiftLATAM/blog/ios-developer-hapi-app-2026#-hapi-app" class="hash-link" aria-label="Enlace directo al 🏢 Hapi App" title="Enlace directo al 🏢 Hapi App" translate="no">​</a></h2>
+<p><strong>Posición:</strong> iOS Developer Senior<br>
+<strong>Ubicación:</strong> 🌎 Remoto LATAM<br>
+<strong>Modalidad:</strong> Full-time<br>
+<strong>Salario:</strong> $80,000 - $100,000 USD anuales</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-stack-requerido">🛠️ Stack requerido<a href="https://iostephano.github.io/SwiftLATAM/blog/ios-developer-hapi-app-2026#%EF%B8%8F-stack-requerido" class="hash-link" aria-label="Enlace directo al 🛠️ Stack requerido" title="Enlace directo al 🛠️ Stack requerido" translate="no">​</a></h2>
+<ul>
+<li class="">SwiftUI</li>
+<li class="">Combine</li>
+<li class="">Clean Architecture</li>
+<li class="">XCTest</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-descripción">📋 Descripción<a href="https://iostephano.github.io/SwiftLATAM/blog/ios-developer-hapi-app-2026#-descripci%C3%B3n" class="hash-link" aria-label="Enlace directo al 📋 Descripción" title="Enlace directo al 📋 Descripción" translate="no">​</a></h2>
+<p>Descripción del puesto aquí.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-requisitos">✅ Requisitos<a href="https://iostephano.github.io/SwiftLATAM/blog/ios-developer-hapi-app-2026#-requisitos" class="hash-link" aria-label="Enlace directo al ✅ Requisitos" title="Enlace directo al ✅ Requisitos" translate="no">​</a></h2>
+<ul>
+<li class="">4+ años de experiencia en iOS</li>
+<li class="">Inglés intermedio o avanzado</li>
+<li class="">Experiencia en fintech es un plus</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-cómo-aplicar">🔗 Cómo aplicar<a href="https://iostephano.github.io/SwiftLATAM/blog/ios-developer-hapi-app-2026#-c%C3%B3mo-aplicar" class="hash-link" aria-label="Enlace directo al 🔗 Cómo aplicar" title="Enlace directo al 🔗 Cómo aplicar" translate="no">​</a></h2>
+<p><a href="https://hapi.app/" target="_blank" rel="noopener noreferrer" class="">Aplicar aquí</a> o enviar CV a <a href="mailto:jobs@hapi.app" target="_blank" rel="noopener noreferrer" class="">jobs@hapi.app</a></p>]]></content>
+        <category label="senior" term="senior"/>
+        <category label="remoto" term="remoto"/>
+        <category label="fintech" term="fintech"/>
+        <category label="swiftui" term="swiftui"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://iostephano.github.io/SwiftLATAM/blog/welcome</id>
