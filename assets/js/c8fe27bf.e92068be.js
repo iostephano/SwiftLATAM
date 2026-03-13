@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkswift_latam=globalThis.webpackChunkswift_latam||[]).push([[1224],{97(a){a.exports=JSON.parse('{"metadata":{"permalink":"/SwiftLATAM/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":5,"blogDescription":"Ofertas de trabajo para iOS Developers en Latinoam\xe9rica","blogTitle":"iOS Jobs LATAM"}}')}}]);
