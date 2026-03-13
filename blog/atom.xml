@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://iostephano.github.io/SwiftLATAM/blog"/>
     <subtitle>SwiftLATAM Blog</subtitle>
-    <icon>https://iostephano.github.io/SwiftLATAM/img/favicon.ico</icon>
+    <icon>https://iostephano.github.io/SwiftLATAM/img/favicon.svg</icon>
     <entry>
         <title type="html"><![CDATA[Staff Software Engineer iOS — Rappi]]></title>
         <id>https://iostephano.github.io/SwiftLATAM/blog/staff-ios-engineer-rappi-2026</id>
